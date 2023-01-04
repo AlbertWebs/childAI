@@ -5,7 +5,7 @@
   <!-- Section: home -->
   <section id="home">
       <div class="container-fluid p-0">
-        
+
         <!-- Slider Revolution Start -->
         <div class="rev_slider_wrapper">
           <div class="rev_slider rev_slider_fullscreen" data-version="5.0">
@@ -25,7 +25,7 @@
                   data-x="['right']"
                   data-hoffset="['30']"
                   data-y="['middle']"
-                  data-voffset="['-90']" 
+                  data-voffset="['-90']"
                   data-fontsize="['64']"
                   data-lineheight="['72']"
                   data-width="none"
@@ -36,9 +36,9 @@
                   data-transform_out="x:left(R);s:1000;e:Power3.easeIn;s:1000;e:Power3.easeIn;"
                   data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
                   data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
-                  data-start="1000" 
-                  data-splitin="none" 
-                  data-splitout="none" 
+                  data-start="1000"
+                  data-splitin="none"
+                  data-splitout="none"
                   data-responsive_offset="on"
                   style="z-index: 7; white-space: nowrap; font-weight:600;"><span class="">{{$slide->name}}</span>
                 </div>
@@ -50,7 +50,7 @@
                   data-x="['right']"
                   data-hoffset="['35']"
                   data-y="['middle']"
-                  data-voffset="['-25']" 
+                  data-voffset="['-25']"
                   data-fontsize="['32']"
                   data-lineheight="['54']"
                   data-width="none"
@@ -61,15 +61,15 @@
                   data-transform_out="x:left(R);s:1000;e:Power3.easeIn;s:1000;e:Power3.easeIn;"
                   data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
                   data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
-                  data-start="1000" 
-                  data-splitin="none" 
-                  data-splitout="none" 
+                  data-start="1000"
+                  data-splitin="none"
+                  data-splitout="none"
                   data-responsive_offset="on"
                   style="z-index: 7; white-space: nowrap; font-weight:600;">{{$slide->heading}}
                 </div>
 
                 <!-- LAYER NR. 3 -->
-                <div class="tp-caption tp-resizeme text-white text-right" 
+                <div class="tp-caption tp-resizeme text-white text-right"
                   id="rs-1-layer-3"
 
                   data-x="['right']"
@@ -86,15 +86,15 @@
                   data-transform_out="x:left(R);s:1000;e:Power3.easeIn;s:1000;e:Power3.easeIn;"
                   data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
                   data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
-                  data-start="1400" 
-                  data-splitin="none" 
-                  data-splitout="none" 
+                  data-start="1400"
+                  data-splitin="none"
+                  data-splitout="none"
                   data-responsive_offset="on"
                   style="z-index: 5; white-space: nowrap; letter-spacing:0px; font-weight:400;">{!!html_entity_decode($slide->content)!!}
                 </div>
 
                 <!-- LAYER NR. 4 -->
-                <div class="tp-caption tp-resizeme" 
+                <div class="tp-caption tp-resizeme"
                   id="rs-1-layer-4"
 
                   data-x="['right']"
@@ -105,15 +105,15 @@
                   data-height="none"
                   data-whitespace="nowrap"
                   data-transform_idle="o:1;"
-                  data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" 
-                  data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
-                  data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" 
+                  data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
+                  data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                  data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
                   data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
-                  data-start="1400" 
-                  data-splitin="none" 
-                  data-splitout="none" 
+                  data-start="1400"
+                  data-splitin="none"
+                  data-splitout="none"
                   data-responsive_offset="on"
-                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-lg btn-flat btn-theme-colored pl-20 pr-20" href="{{url('/our-projects')}}">Our Projects</a> 
+                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-lg btn-flat btn-theme-colored pl-20 pr-20" href="{{url('/our-projects')}}">Our Projects</a>
                 </div>
 
 
@@ -134,7 +134,7 @@
                   data-x="['left']"
                   data-hoffset="['30']"
                   data-y="['middle']"
-                  data-voffset="['-110']" 
+                  data-voffset="['-110']"
                   data-fontsize="['110']"
                   data-lineheight="['120']"
                   data-width="none"
@@ -145,9 +145,9 @@
                   data-transform_out="x:left(R);s:1000;e:Power3.easeIn;s:1000;e:Power3.easeIn;"
                   data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
                   data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
-                  data-start="1000" 
-                  data-splitin="none" 
-                  data-splitout="none" 
+                  data-start="1000"
+                  data-splitin="none"
+                  data-splitout="none"
                   data-responsive_offset="on"
                   style="z-index: 7; white-space: nowrap; font-weight:700; font-size: 60px;">{{$slide->name}}
                 </div>
@@ -159,7 +159,7 @@
                   data-x="['left']"
                   data-hoffset="['35']"
                   data-y="['middle']"
-                  data-voffset="['-25']" 
+                  data-voffset="['-25']"
                   data-fontsize="['35']"
                   data-lineheight="['54']"
                   data-width="none"
@@ -170,15 +170,15 @@
                   data-transform_out="x:left(R);s:1000;e:Power3.easeIn;s:1000;e:Power3.easeIn;"
                   data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
                   data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
-                  data-start="1000" 
-                  data-splitin="none" 
-                  data-splitout="none" 
+                  data-start="1000"
+                  data-splitin="none"
+                  data-splitout="none"
                   data-responsive_offset="on"
                   style="z-index: 7; white-space: nowrap; font-weight:600;">{{$slide->heading}}
                 </div>
 
                 <!-- LAYER NR. 3 -->
-                <div class="tp-caption tp-resizeme text-white" 
+                <div class="tp-caption tp-resizeme text-white"
                   id="rs-2-layer-3"
 
                   data-x="['left']"
@@ -195,15 +195,15 @@
                   data-transform_out="x:left(R);s:1000;e:Power3.easeIn;s:1000;e:Power3.easeIn;"
                   data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
                   data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
-                  data-start="1400" 
-                  data-splitin="none" 
-                  data-splitout="none" 
+                  data-start="1400"
+                  data-splitin="none"
+                  data-splitout="none"
                   data-responsive_offset="on"
                   style="z-index: 5; white-space: nowrap; letter-spacing:0px; font-weight:400;">{!!html_entity_decode($slide->content)!!}
                 </div>
 
                 <!-- LAYER NR. 4 -->
-                <div class="tp-caption tp-resizeme" 
+                <div class="tp-caption tp-resizeme"
                   id="rs-2-layer-4"
 
                   data-x="['left']"
@@ -214,15 +214,15 @@
                   data-height="none"
                   data-whitespace="nowrap"
                   data-transform_idle="o:1;"
-                  data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" 
-                  data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
-                  data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" 
+                  data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
+                  data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                  data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
                   data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
-                  data-start="1400" 
-                  data-splitin="none" 
-                  data-splitout="none" 
+                  data-start="1400"
+                  data-splitin="none"
+                  data-splitout="none"
                   data-responsive_offset="on"
-                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-lg btn-theme-colored pl-20 pr-20" href="{{url('/donate')}}">Donate Now</a> 
+                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-colored btn-lg btn-theme-colored pl-20 pr-20" href="{{url('/donate')}}">Donate Now</a>
                 </div>
               </li>
               @endforeach
@@ -237,11 +237,11 @@
                 <!-- LAYER NR. 1 -->
                 <div class="tp-caption tp-resizeme text-uppercase  bg-dark-transparent text-white font-raleway pl-30 pr-30"
                   id="rs-3-layer-1"
-                
+
                   data-x="['center']"
                   data-hoffset="['0']"
                   data-y="['middle']"
-                  data-voffset="['-90']" 
+                  data-voffset="['-90']"
                   data-fontsize="['28']"
                   data-lineheight="['54']"
                   data-width="none"
@@ -252,9 +252,9 @@
                   data-transform_out="x:left(R);s:1000;e:Power3.easeIn;s:1000;e:Power3.easeIn;"
                   data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
                   data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
-                  data-start="1000" 
-                  data-splitin="none" 
-                  data-splitout="none" 
+                  data-start="1000"
+                  data-splitin="none"
+                  data-splitout="none"
                   data-responsive_offset="on"
                   style="z-index: 7; white-space: nowrap; font-weight:400; border-radius: 30px;">{{$slide->name}}
                 </div>
@@ -277,15 +277,15 @@
                   data-transform_out="x:left(R);s:1000;e:Power3.easeIn;s:1000;e:Power3.easeIn;"
                   data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
                   data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
-                  data-start="1000" 
-                  data-splitin="none" 
-                  data-splitout="none" 
+                  data-start="1000"
+                  data-splitin="none"
+                  data-splitout="none"
                   data-responsive_offset="on"
                   style="z-index: 7; white-space: nowrap; font-weight:700; border-radius: 30px;">{{$slide->heading}}
                 </div>
 
                 <!-- LAYER NR. 3 -->
-                <div class="tp-caption tp-resizeme text-white text-center" 
+                <div class="tp-caption tp-resizeme text-white text-center"
                   id="rs-3-layer-3"
 
                   data-x="['center']"
@@ -302,15 +302,15 @@
                   data-transform_out="x:left(R);s:1000;e:Power3.easeIn;s:1000;e:Power3.easeIn;"
                   data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
                   data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
-                  data-start="1400" 
-                  data-splitin="none" 
-                  data-splitout="none" 
+                  data-start="1400"
+                  data-splitin="none"
+                  data-splitout="none"
                   data-responsive_offset="on"
                   style="z-index: 5; white-space: nowrap; letter-spacing:0px; font-weight:400;">{!!html_entity_decode($slide->content)!!}
                 </div>
 
                 <!-- LAYER NR. 4 -->
-                <div class="tp-caption tp-resizeme" 
+                <div class="tp-caption tp-resizeme"
                   id="rs-3-layer-4"
 
                   data-x="['center']"
@@ -321,15 +321,15 @@
                   data-height="none"
                   data-whitespace="nowrap"
                   data-transform_idle="o:1;"
-                  data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" 
-                  data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
-                  data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" 
+                  data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
+                  data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                  data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
                   data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
-                  data-start="1400" 
-                  data-splitin="none" 
-                  data-splitout="none" 
+                  data-start="1400"
+                  data-splitin="none"
+                  data-splitout="none"
                   data-responsive_offset="on"
-                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-default btn-circled btn-theme-colored pl-20 pr-20" href="{{url('/donate')}}">Donate Now</a> 
+                  style="z-index: 5; white-space: nowrap; letter-spacing:1px;"><a class="btn btn-default btn-circled btn-theme-colored pl-20 pr-20" href="{{url('/donate')}}">Donate Now</a>
                 </div>
               </li>
               @endforeach
@@ -435,7 +435,7 @@
         <!-- Slider Revolution Ends -->
       </div>
 	</section>
-	
+
 	<!-- Section: home-boxes -->
 	<section>
       <div class="container pt-0 pb-0">
@@ -507,7 +507,7 @@
               <a class="btn btn-theme-colored mt-10" href="{{url('/about-us')}}">View More</a>
             </div>
           </div>
-          
+
       </div>
     </section>
 @endforeach
@@ -525,7 +525,7 @@
             </div>
           </div>
         </div>
-      </div>      
+      </div>
     </section>
 <!-- About Section -->
 @endforeach
@@ -548,7 +548,7 @@
             </div>
           </div>
         </div>
-        <div class="row multi-row-clearfix"> 
+        <div class="row multi-row-clearfix">
           <div class="owl-carousel-3col">
           <?php $Projects = DB::table('portfolio')->orderBy('id','DESC')->limit('4')->get(); ?>
           @foreach($Projects as $project)
@@ -594,7 +594,7 @@
               <div class="title-icon">
                 <i class="flaticon-charity-hand-holding-a-heart"></i>
               </div>
-              
+
             </div>
           </div>
         </div>
@@ -634,7 +634,7 @@
               <div class="title-icon">
                 <i class="fa fa-briefcase"></i>
               </div>
-             
+
             </div>
           </div>
         </div>
@@ -650,8 +650,8 @@
               @foreach($Clients as $client)
               <div class="item"> <a href="#"><img src="{{url('/uploads/')}}/partners/{{$client->image}}" alt=""></a></div>
               @endforeach
-              
-              
+
+
             </div>
           </div>
         </div>

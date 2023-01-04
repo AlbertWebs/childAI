@@ -1,6 +1,6 @@
 <section id="home">
     <div class="container-fluid p-0">
-      
+
       <!-- Slider Revolution Start -->
       <div class="rev_slider_wrapper">
         <div class="rev_slider rev_slider_default" data-version="5.0">
@@ -8,19 +8,19 @@
             <?php $Slider = DB::table('slider')->where('id','1')->get(); ?>
             @foreach ($Slider as $slider)
             <!-- SLIDE {{$slider->id}} -->
-            <li data-index="rs-1" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="images/bg/bg14.jpg" data-rotate="0" data-saveperformance="off" data-title="Slide 1" data-description="">
+            <li data-index="rs-1" data-transition="slidingoverlayhorizontal" data-slotamount="default" data-easein="default" data-easeout="default" data-masterspeed="default" data-thumb="{{asset('theme/images/bg/bg14.jpg')}}" data-rotate="0" data-saveperformance="off" data-title="Slide 1" data-description="">
               <!-- MAIN IMAGE -->
-              <img src="images/bg/bg14.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
+              <img src="{{asset('theme/images/bg/bg14.jpg')}}"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-bgparallax="10" data-no-retina>
               <!-- LAYERS -->
-  
+
               <!-- LAYER NR. 1 -->
               <div class="tp-caption tp-resizeme text-uppercase  bg-dark-transparent text-white font-raleway pl-30 pr-30"
                 id="rs-1-layer-1"
-              
+
                 data-x="['center']"
                 data-hoffset="['0']"
                 data-y="['middle']"
-                data-voffset="['-90']" 
+                data-voffset="['-90']"
                 data-fontsize="['28']"
                 data-lineheight="['54']"
                 data-width="none"
@@ -31,17 +31,17 @@
                 data-transform_out="x:left(R);s:1000;e:Power3.easeIn;s:1000;e:Power3.easeIn;"
                 data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
                 data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
-                data-start="1000" 
-                data-splitin="none" 
-                data-splitout="none" 
+                data-start="1000"
+                data-splitin="none"
+                data-splitout="none"
                 data-responsive_offset="on"
                 style="z-index: 7; white-space: nowrap; font-weight:400; border-radius: 30px;">
               </div>
-  
+
               <!-- LAYER NR. 2 -->
               <div class="tp-caption tp-resizeme text-uppercase bg-theme-colored-transparent text-white font-raleway pl-30 pr-30"
                 id="rs-1-layer-2"
-  
+
                 data-x="['center']"
                 data-hoffset="['0']"
                 data-y="['middle']"
@@ -56,17 +56,17 @@
                 data-transform_out="x:left(R);s:1000;e:Power3.easeIn;s:1000;e:Power3.easeIn;"
                 data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
                 data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
-                data-start="1000" 
-                data-splitin="none" 
-                data-splitout="none" 
+                data-start="1000"
+                data-splitin="none"
+                data-splitout="none"
                 data-responsive_offset="on"
                 style="z-index: 7; white-space: nowrap; font-weight:700; border-radius: 30px;">{{$slider->name}}
               </div>
-  
+
               <!-- LAYER NR. 3 -->
-              <div class="tp-caption tp-resizeme text-white text-center" 
+              <div class="tp-caption tp-resizeme text-white text-center"
                 id="rs-1-layer-3"
-  
+
                 data-x="['center']"
                 data-hoffset="['0']"
                 data-y="['middle']"
@@ -81,17 +81,17 @@
                 data-transform_out="x:left(R);s:1000;e:Power3.easeIn;s:1000;e:Power3.easeIn;"
                 data-mask_in="x:0px;y:0px;s:inherit;e:inherit;"
                 data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
-                data-start="1400" 
-                data-splitin="none" 
-                data-splitout="none" 
+                data-start="1400"
+                data-splitin="none"
+                data-splitout="none"
                 data-responsive_offset="on"
                 style="z-index: 5; white-space: nowrap; letter-spacing:0px; font-weight:400;">
               </div>
-  
+
               <!-- LAYER NR. 4 -->
-              <div class="tp-caption tp-resizeme" 
+              <div class="tp-caption tp-resizeme"
                 id="rs-1-layer-4"
-  
+
                 data-x="['center']"
                 data-hoffset="['0']"
                 data-y="['middle']"
@@ -100,20 +100,20 @@
                 data-height="none"
                 data-whitespace="nowrap"
                 data-transform_idle="o:1;"
-                data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;" 
-                data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
-                data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;" 
+                data-transform_in="y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:2000;e:Power4.easeInOut;"
+                data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;"
+                data-mask_in="x:0px;y:[100%];s:inherit;e:inherit;"
                 data-mask_out="x:inherit;y:inherit;s:inherit;e:inherit;"
-                data-start="1400" 
-                data-splitin="none" 
-                data-splitout="none" 
+                data-start="1400"
+                data-splitin="none"
+                data-splitout="none"
                 data-responsive_offset="on"
                 style="z-index: 5; white-space: nowrap; letter-spacing:1px;">
               </div>
             </li>
             @endforeach
-           
-  
+
+
           </ul>
         </div>
       <!-- end .rev_slider -->

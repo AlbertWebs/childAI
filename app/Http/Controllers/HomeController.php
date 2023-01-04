@@ -9,8 +9,8 @@ use App\Privacy;
 use App\Quote;
 use App\ReplyMessage;
 use App\ServiceRequest;
-use App\Services;
-use App\Slider;
+use App\Models\Services;
+use App\Models\Slider;
 use App\Subscriber;
 use App\Registration;
 use App\Downloads;
@@ -46,22 +46,16 @@ class HomeController extends Controller
             OpenGraph::addProperty('type', 'articles');
             Twitter::setTitle('' . $Settings->sitename . ' - ' . $Settings->welcome . '');
             Twitter::setSite('' . $Settings->twitter . '');
-
             $About = DB::table('about')->get();
             $Slider = Slider::all();
             $Clients =
-
             $Portfolio = DB::table('portfolio')->get();
             $Services = Services::all();
             $Testimonial =DB:: table('testimonial')->paginate(12);
             $Video = DB::table('videos')->paginate(1);
             $SiteSettings = DB::table('sitesettings')->get();
             $page_name = 'home';
-
-
-
-
-
+            $page_title= 'home';
             return view('front.index', compact( 'Video', 'About', 'SiteSettings', 'page_title', 'Testimonial', 'Slider', 'Services', 'Portfolio', 'page_name'));
         }
     }
