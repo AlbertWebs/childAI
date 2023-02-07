@@ -124,7 +124,7 @@ s0.parentNode.insertBefore(s1,s0);
         <div class="row">
           <div class="col-xs-12 col-sm-4 col-md-4">
             <div class="widget no-border m-0">
-              <a class="menuzord-brand pull-left flip xs-pull-center mb-15" href="{{url('/')}}"><img src="{{url('/')}}/uploads/logo/{{$Settings->logo}}" alt=""></a>
+              <a class="menuzord-brand pull-left flip xs-pull-center mb-15" href="{{url('/')}}"><img style="max-width:150px" src="{{url('/')}}/uploads/logo/{{$Settings->logo}}" alt=""></a>
             </div>
           </div>
 
@@ -172,7 +172,6 @@ s0.parentNode.insertBefore(s1,s0);
 
         <li class="<?php if($page_name == 'regions') echo "active" ?>" ><a href="#"> Team</a>
 				  <ul class="dropdown  text-center">
-
             <li><a href="{{url('/')}}/board-of-directors">Board Of Directors</a> </li>
             <li><a href="{{url('/')}}/management">Management</a> </li>
             <li><a href="{{url('/')}}/volunteer-coordinators">Volunteer Coordinators</a> </li>
