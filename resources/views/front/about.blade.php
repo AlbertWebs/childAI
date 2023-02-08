@@ -6,60 +6,69 @@
       <div class="container pb-20">
         <div class="section-content">
           <div class="row">
-            <div class="col-md-5">
+            <div class="col-md-6">
               <div class="owl-carousel-1col" data-nav="true">
                 <div class="item">
-                  <img src="{{url('/')}}/uploads/images/{{$about->image_two}}" alt="">
+                  <img src="{{url('/')}}/uploads/images/IMG-20220616-WA0085.jpg" alt="">
                   <h4 class="mt-15"> <span class="font-13"> </span></h4>
                 </div>
-                <div class="item">
+                {{-- <div class="item">
                   <img src="{{url('/')}}/uploads/images/{{$about->image_one}}" alt="">
                   <h4 class="mt-15"> <span class="font-13"> </span></h4>
                 </div>
                 <div class="item">
                   <img src="{{url('/')}}/uploads/images/{{$about->image}}" alt="">
                   <h4 class="mt-15"> <span class="font-13"> </span></h4>
-                </div>
+                </div> --}}
               </div>
             </div>
-            <div class="col-md-7">
-              <h2 class="text-theme-colored mt-0 mb-20">About US</h2>
+            <div class="col-md-6">
+              {{-- <h2 class="text-theme-colored mt-0 mb-20">About US</h2> --}}
               <p>{!!html_entity_decode($about->content)!!}</p>
               <a class="btn btn-theme-colored mt-10" href="#">Download Annual Impact Report</a>
             </div>
           </div>
           <div class="row mt-10"  data-bg-img="images/pattern/p26.png" style="padding-top:100px">
             <div class="col-md-7">
-              <h2 class="text-theme-colored">Our Structure</h2>
-              <p>{!!html_entity_decode($about->structure)!!}</p>
+              <h2 class="text-theme-colored">Our Core Values</h2>
+              <p style="color:#333333; font-weight:600 !important">{!!html_entity_decode($about->structure)!!}</p>
             </div>
             <div class="col-md-5">
               <h2 class="text-theme-colored">Our Mission</h2>
-              <div class="progressbar-container">
-                <div class="progress-item">
-                  <div class="progress-title">
-                    <h6>{{$about->mission}}</h6>
-                  </div>
-				</div>
+                <div class="progressbar-container">
+                    <div class="progress-item">
+                        <div class="progress-title">
+                            <p>{{$about->mission}}</p>
+                        </div>
+                    </div>
 				<h2 class="text-theme-colored">Our Vision</h2>
                 <div class="progressbar-container">
 					<div class="progress-item">
 					<div class="progress-title">
-						<h6>{{$about->vision}}</h6>
+						<p>{{$about->vision}}</p>
+					</div>
+					</div>
+                </div>
+
+                <h2 class="text-theme-colored">Our Aim</h2>
+                <div class="progressbar-container">
+					<div class="progress-item">
+					<div class="progress-title">
+						<p>{{$about->aim}}</p>
 					</div>
 					</div>
                 </div>
               </div>
             </div>
           </div>
-        
+
         </div>
       </div>
     </section>
 @endforeach
 
 
-    
+
 
 
 
@@ -75,7 +84,7 @@
               <div class="title-icon">
                 <i class="fa fa-briefcase"></i>
               </div>
-             
+
             </div>
           </div>
         </div>
@@ -91,8 +100,8 @@
               @foreach($Clients as $client)
               <div class="item"> <a href="#"><img src="{{url('/uploads/')}}/partners/{{$client->image}}" alt=""></a></div>
               @endforeach
-              
-              
+
+
             </div>
           </div>
         </div>

@@ -175,7 +175,6 @@ s0.parentNode.insertBefore(s1,s0);
             <li><a href="{{url('/')}}/board-of-directors">Board Of Directors</a> </li>
             <li><a href="{{url('/')}}/management">Management</a> </li>
             <li><a href="{{url('/')}}/volunteer-coordinators">Volunteer Coordinators</a> </li>
-
           </ul>
 				</li>
 
@@ -407,7 +406,7 @@ s0.parentNode.insertBefore(s1,s0);
       <div class="container pt-15 pb-10">
         <div class="row">
           <div class="col-lg-6 col-md-6 col-sm-12">
-            <p class="font-11 text-black-777 m-0 text-center">Copyright &copy;<?php echo date('Y') ?> {{$Settings->sitename}}. All Rights Reserved | Powered By <a href="https://designekta.com">Designekta Studios</a></p>
+            <p class="font-11 text-black-777 m-0 text-center">Copyright &copy;<?php echo date('Y') ?> {{$Settings->sitename}}. All Rights Reserved </p>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-12 text-right">
             <div class="widget no-border m-0">
